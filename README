@@ -1,0 +1,17 @@
+Gestor de Tarefas em Python
+
+Este programa é um gestor de tarefas simples executado no terminal. Permite ao utilizador criar, visualizar, concluir e apagar tarefas de forma prática. As informações são guardadas automaticamente num ficheiro local em formato JSON, garantindo que os dados permanecem disponíveis entre execuções.
+
+O projeto é composto por dois ficheiros principais. O ficheiro gestor_tarefas.py contém toda a lógica do programa, incluindo o menu, as funções de manipulação das tarefas e a interação com o utilizador. O ficheiro tarefas.json é responsável por armazenar os dados das tarefas, incluindo o título e o estado de cada uma.
+
+Para executar o programa, é necessário ter o Python 3 instalado. Deve abrir o terminal, navegar até à pasta onde o projeto está localizado e executar o ficheiro gestor_tarefas.py. Após iniciar, será apresentado um menu com opções que permitem gerir as tarefas de forma simples, escolhendo o número correspondente a cada ação.
+
+O funcionamento baseia-se numa interação direta com o utilizador através do terminal. É possível visualizar todas as tarefas registadas, adicionar novas tarefas, marcar tarefas como concluídas e apagar tarefas existentes. Cada alteração é automaticamente guardada no ficheiro de dados.
+
+As tarefas são armazenadas no ficheiro tarefas.json. Cada tarefa possui um título e um estado que indica se está concluída ou pendente. Caso o ficheiro não exista, o programa cria-o automaticamente na primeira execução.
+
+Recomenda-se não editar manualmente o ficheiro tarefas.json, para evitar erros no funcionamento do programa. Este gestor foi concebido para ser utilizado exclusivamente no terminal, não possuindo interface gráfica.
+
+Como melhorias futuras, o programa pode ser expandido com funcionalidades como definição de prioridades, inclusão de prazos, edição de tarefas existentes, organização por categorias ou até a criação de uma interface gráfica.
+
+Este projeto foi desenvolvido com fins de aprendizagem em Python e organização de tarefas pessoais.
